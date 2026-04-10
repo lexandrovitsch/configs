@@ -1,0 +1,29 @@
+[general]
+import = ["~/.config/alacritty/themes/noctalia.toml"]
+
+# general.import = [
+#  "~/.config/alacritty/themes/themes/tokyo_night_enhanced.toml"
+# ]
+
+[window]
+decorations = "None"
+opacity = 0.8
+startup_mode = "Maximized"
+dynamic_title = true
+
+  [window.dimensions]
+  columns = 120
+  lines = 40
+
+[font]
+
+normal.family = "0xProto Nerd Font Mono"
+bold.family = "0xProto Nerd Font Mono"
+italic.family = "0xProto Nerd Font Mono"
+bold_italic.family = "0xProto Nerd Font Mono"
+
+size = 11.25
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"
